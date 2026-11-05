@@ -1,0 +1,14 @@
+Part Name,Qty,Purpose,Form Factor,Dimensions (mm),Source Link,Notes
+ESP32-S3-DevKitC-1,1,Main microcontroller board,Espressif DevKitC-1,26.0 x 63.0 x 15,https://espressif.com,Built-in touch pins & Wi-Fi
+2.4" TFT Display,1,Face and eye expressions,ILI9341 (SPI No-Touch),52.0 x 71.0 x 5.0,https://robu.in,Verify mounting holes spacing
+APDS-9960 Breakout,1,Hand wave gesture sensor,GY-9960 / SparkFun style,20.0 x 20.0 x 3.0,https://thinkrobotics.in,Uses I2C interface bus
+SG90 Micro Servo,2,Arm waving actuators,TowerPro SG90 Standard,22.5 x 22.7 x 12,https://robocraze.com,Tabs extend total width to 32.5mm
+N20 Gear Motor,2,Wheel drive propulsion,6V 100-150 RPM Micro,12.0 x 26.0 x 10,https://robu.in,Excludes output shaft length
+TB6612FNG Module,1,Dual motor driver carrier,SparkFun style carrier,20.0 x 20.0 x 3.0,https://robu.in,Powers N20 motors from battery
+3.7V LiPo Battery,1,Main system power source,603450 Protected Cell,34.0 x 50.0 x 6.0,https://robu.in,1000 mAh with built-in safety board
+TP4056 USB-C,1,LiPo battery charging unit,Type-C with Protection,17.0 x 26.0 x 4.0,https://robu.in,Isolated from the main 5V rail
+5V Boost Converter,1,Step-up rail for servos/amp,2A High-Efficiency DC-DC,18.0 x 25.0 x 5.0,https://robu.in,Prevents servo usage reboots
+MAX98357A I2S Amp,1,Digital audio amplifier,Adafruit I2S Breakout,18.0 x 18.0 x 3.0,https://robu.in,Decodes digital audio directly
+Mini Speaker,1,System sound output effects,28mm Round Slim Body,28.0 x 28.0 x 5.0,https://robu.in,8 Ohm or 4 Ohm front-firing speaker
+Ball Caster Wheels,2,Chassis balance supports,10mm Metal/Nylon Caster,15.0 x 15.0 x 12,https://robu.in,One front, one rear under floor
+Slide Switch,1,Main power isolation switch,SPDT Mini Slide Switch,8.5 x 4.0 x 15.0,https://robu.in,Cuts battery power before boost stage
